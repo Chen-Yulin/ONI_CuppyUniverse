@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CYL_ONI_Mod")]
+[assembly: AssemblyTitle("ONI_CuppyUniverse_Mod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CYL_ONI_Mod")]
+[assembly: AssemblyProduct("ONI_CuppyUniverse_Mod")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

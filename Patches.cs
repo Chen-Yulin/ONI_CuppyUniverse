@@ -1,6 +1,6 @@
 using HarmonyLib;
 
-namespace CYL_ONI_Mod
+namespace ONI_CuppyUniverse_Mod
 {
     public class Patches
     {
