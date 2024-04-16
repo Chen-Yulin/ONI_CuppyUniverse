@@ -10,13 +10,23 @@ namespace ONI_CuppyUniverse_Mod
         {
             public static void Prefix()
             {
-                Debug.Log("I execute before Db.Initialize!");
+                Debug.Log("Hello! Welcome to CuppyUniverse! [before Db.Initialize]");
             }
 
             public static void Postfix()
             {
-                Debug.Log("I execute after Db.Initialize!");
+                Debug.Log("CuppyUniverse initialized! [after Db.Initialize]");
+            }
+        }
+        [HarmonyPatch(typeof(ElectrolyzerConfig))]
+        [HarmonyPatch("CreateBuildingDef")]
+        public class ElectrolyzerConfig_Patch
+        {
+            public static void Postfix(ref BuildingDef __result)
+            {
+                __result.EnergyConsumptionWhenActive = 114f;
             }
         }
     }
+    
 }
